@@ -20,19 +20,15 @@ class Concurso {
 		this.fechaCierreInscripcion = LocalDate.parse(cierreInscripcion);
 	}
 
-	public int getId() {
+	public int obtenerId() {
 		return this.id;
 	}
 
-//	public String getNombre() {
-//		return this.nombre;
-//	}
-
-	public LocalDate getInicioInscripcion() {
+	public LocalDate obtenerInicioInscripcion() {
 		return this.fechaInicioInscripcion;
 	}
 
-	public LocalDate getCierreInscripcion() {
+	public LocalDate obtenerCierreInscripcion() {
 		return this.fechaCierreInscripcion;
 	}
 

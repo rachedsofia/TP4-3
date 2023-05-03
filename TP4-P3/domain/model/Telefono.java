@@ -19,7 +19,7 @@ class Telefono {
 		this.numero = telefono;
 	}
 
-	public String getNumero() {
+	public String obtenerNumero() {
 		return this.numero;
 	}
 
