@@ -20,6 +20,17 @@ class Concurso {
 		this.fechaCierreInscripcion = LocalDate.parse(cierreInscripcion);
 	}
 
+	public Concurso(String idConcurso, String nombre2, String fechaInicioInscripcion2, String fechaFinInscripcion) {
+		verificar(nombre);
+		verificar(fechaInicioInscripcion2);
+		verificar(fechaFinInscripcion);
+
+		this.id = id;
+		this.nombre = nombre;
+		this.fechaInicioInscripcion = LocalDate.parse(fechaInicioInscripcion2);
+		this.fechaCierreInscripcion = LocalDate.parse(fechaFinInscripcion);
+	}
+
 	public int obtenerId() {
 		return this.id;
 	}

@@ -44,4 +44,10 @@ public class JdbcRegistroInscripcion implements RegistroInscripto {
 		}
 	}
 
+	@Override
+	public void inscribir(String apellido, String nombre, String telefono, String mail, int obtenerId) {
+		// TODO Auto-generated method stub
+
+	}
+
 }
